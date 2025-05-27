@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#login-main {
+    margin: 120px auto;
+    width: 450px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+#login-navbar {
+    background-color: #2c2929; /* Black header */
+    color: white;           /* White font */
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+#login-key img {
+    width: 100px;
+    height: 100px;
+}
+
+.login-input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.login-input input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#login-button {
+    text-align: right;
+    padding-top: 10px;
+}
+
+#login-button input {
+    padding: 6px 12px;
+    margin-left: 5px;
+}

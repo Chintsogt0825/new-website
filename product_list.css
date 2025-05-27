@@ -1,0 +1,139 @@
+/* ================================
+   General Page Styling
+==================================*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+/* ================================
+   Buttons
+==================================*/
+button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* ================================
+   Main Table Styling
+==================================*/
+#main-content {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header row (top black bar) */
+#main-navbar {
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#main-navbar p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Column headers */
+#navbar-title {
+    background-color: #444;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+
+#navbar-title td {
+    padding: 10px;
+}
+
+/* ================================
+   Product Rows
+==================================*/
+.product-item td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.product-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* ================================
+   Product Image Styling
+==================================*/
+.product-item .img img {
+    height: 50px;
+    width: auto;
+}
+
+/* ================================
+   Text Styling
+==================================*/
+.red.text {
+    color: #e74c3c;
+}
+
+/* ================================
+   Links for Update/Delete
+==================================*/
+.link a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.link a.red {
+    color: #e74c3c;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+/* ================================
+   Pagination Styling
+==================================*/
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination b {
+    margin: 0 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.page-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+.page-btn:hover {
+    background-color: #444;
+}
+
+.current-page {
+    background-color: #e74c3c;
+    color: #fff;
+    cursor: default;
+}
